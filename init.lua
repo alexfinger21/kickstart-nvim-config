@@ -579,7 +579,7 @@ do
   --  See `:help nvim-treesitter-intro`
 
   -- NOTE: You can also specify a branch or a specific commit
-  vim.pack.add { { src = gh 'nvim-treesitter/nvim-treesitter', version = 'master' } }
+  vim.pack.add { { src = gh 'nvim-treesitter/nvim-treesitter', version = 'main' } }
 
   -- Ensure basic parsers are installed
   local parsers = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' }
